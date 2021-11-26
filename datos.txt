@@ -1,0 +1,1 @@
+{"foco":"Apagado","dimmer":"0"}

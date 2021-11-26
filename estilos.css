@@ -1,0 +1,41 @@
+.Rango{
+    width: 80%;
+    margin: auto;
+}
+.Rango .Intencidad{
+    width: 100%;
+    -webkit-appearance: none;
+    height: 12px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    opacity: 0.9;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+}
+.Intencidad::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background-color: firebrick;
+    cursor: pointer;
+}
+.text_grande{
+    font-size: 60px;
+}
+.text_mini{
+    font-size: 40px;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.foco{
+    font-size: 60px;
+}
+.fuente{
+    font-size: 8px;
+}
+.fuente2{
+    font-size: 10px;
+}
+
+@media(min-width: 600px) {
+    .fuente{
+        font-size: 12px;
+    }
+    .fuente2{
+        font-size: 12px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .fuente{
+        font-size: 14px;
+    }
+    .fuente2{
+        font-size: 14px;
+    }
+}

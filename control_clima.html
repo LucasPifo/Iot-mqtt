@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="theme-color" content="#C23333" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <title>Control</title>
+    </head>
+    <style>
+        .text_grande{
+            font-size: 60px;
+        }
+        .text_mini{
+            font-size: 40px;
+        }
+        .centrar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="row d-felx justify-content-around">
+                <div class="col-md-5 card bg-dark text-light">
+                    <div class="p-3">
+                       <div class="d-sm-none">
+                           <p class="d-flex justify-content-around text_mini"><b id="grados">22°C</b><b id="modo">HUMEDO</b></p>
+                       </div>
+                       <div class="d-none d-sm-block centrar">
+                           <p class="text_grande"><b id="grados">22°C</b><br><b id="modo">HUMEDO</b></p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-md-5 card bg-light">
+                   <div class="p-3">
+                       <form id="form_agregar" method="POST">
+                           <div class="form-group">
+                               <button type="submit" class="btn btn-danger btn-block" id="on_off">ON/OFF</button>
+                           </div>
+                           <div class="form-group">
+                               <button type="submit" class="btn btn-default btn-block" id="mas">+</button>
+                           </div>
+                           <div class="form-group">
+                               <button type="submit" class="btn btn-default btn-block" id="menos">-</button>
+                           </div>
+                           <div class="form-group">
+                               <button type="submit" class="btn btn-default btn-block" id="modo">MODO</button>
+                           </div>
+                           <div class="form-group">
+                               <button type="submit" class="btn btn-default btn-block" id="aspas">ASPAS</button>
+                           </div>
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <script>
+       </script>
+    </body>
+</html>
